@@ -1,0 +1,33 @@
+﻿<Window x:Class="_2do_Parcial_Arquitectura_de_Computadoras.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_2do_Parcial_Arquitectura_de_Computadoras"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Margin="5,-1,-5,1">
+            <StackPanel.Background>
+                <ImageBrush ImageSource="/matrix-2354492_1280.jpg"/>
+            </StackPanel.Background>
+            <Menu x:Name="Menu" Height="20" Background="#FF091C56">
+                <MenuItem Header="Archivo" FontWeight="Bold" FontSize="14" Background="#FF46D0DA" Foreground="#FF933DC7">
+                    <MenuItem Header="Firma" Click="MenuItem_Click"/>
+                </MenuItem>
+            </Menu>
+            <Grid Height="414">
+
+                <Label Content="Instituto Politecnico Nacional" HorizontalAlignment="Center" Width="370" Margin="0,14,0,360" Background="#FF080707" Foreground="#FFE80F0F" FontWeight="Bold" FontFamily="Arial Black" FontSize="22"/>
+                <Label Content="ESIME Zacatenco" HorizontalAlignment="Center" Width="210" Margin="0,59,0,315" Background="#FF080707" Foreground="#FFE80F0F" FontWeight="Bold" FontFamily="Arial Black" FontSize="20"/>
+                <Label Content="Comunicaciones y electronica" HorizontalAlignment="Center" Width="310" Margin="0,110,0,264" Background="#FF080707" Foreground="#FFE80F0F" FontWeight="Bold" FontFamily="Arial Black" FontSize="18"/>
+                <Label Content="ALMACENAMIENTO DE DATOS" HorizontalAlignment="Left" Width="360" Margin="225,195,0,179" Background="#FF080707" Foreground="#FF0F8AE8" FontWeight="Bold" FontFamily="Century Gothic" FontSize="24"/>
+                <TextBox TextWrapping="Wrap" Text="Alumno: Gonzalez Zamora Fernando&#xD;&#xA;Grupo: 8CM12&#xD;&#xA;Profesor: Diaz Sandoval Ignacio " Margin="235,250,240,104" Background="#FF080707" Foreground="#FF5314C7" FontFamily="Arial Black" FontSize="16"/>
+                <Button Margin="320,335,325,34" Content="EMPEZAR" Background="#FF40ACF1" FontWeight="Bold" FontSize="20"></Button>
+            </Grid>
+
+
+        </StackPanel>
+
+    </Grid>
+</Window>
